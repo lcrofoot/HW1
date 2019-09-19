@@ -1,0 +1,38 @@
+<html>
+<body>
+<div>
+    <img src="head.jpg" alt="Head" style="width:400px">
+    <h2 id='enter'></h2> 
+    <input type="text" id='task'>
+</div>
+
+<div>
+    <h3 id='enterdate'></h3> 
+    <input type="text" id='date'>
+    <div id='errorMonth'> </div>
+    <div id='errorDay'> </div>
+    <div id='errorYear'> </div>
+    <div id='errorFormat'> </div>
+    <!-- <input type='checkbox' id='tester'> -->
+</div>
+
+<button onclick="addToList()"> Add to List </button>
+<h1 id='title'></h1>
+<div id='mylist'></div>
+<div id='mycomplete'></div>
+
+<!-- <li>
+    When satisfied with the internal review, click the button on the right and then go to the Staging environment for a final review.
+    <button id='testbutton'>Remove</button>
+</li> -->
+
+<button onclick="printSorted()"> Sort List by Due Date </button>
+<button onclick="sumbitComplete()">Submit Completed Tasks</button>
+<button onclick="removeLast()"> Remove Last Entry </button>
+
+<div>
+    
+</div>
+<script src='Assign1.js'></script>
+</body>
+</html>
